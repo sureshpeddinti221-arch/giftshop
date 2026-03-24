@@ -1,21 +1,21 @@
 import { Product, Category, Occasion } from './types';
 
 export const CATEGORIES: Category[] = [
-  { id: '1', name: 'Photo Gifts', image: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&q=80&w=400' },
-  { id: '2', name: 'Crystal & Acrylic Gifts', image: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&q=80&w=400' },
+  { id: '1', name: 'Photo Gifts', image: 'https://images.unsplash.com/photo-1607344645866-009c320b63e0?auto=format&fit=crop&q=80&w=400' },
+  { id: '2', name: 'Crystal & Acrylic Gifts', image: 'https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&q=80&w=400' },
   { id: '3', name: 'Mugs & Drinkware', image: 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&q=80&w=400' },
-  { id: '4', name: 'Keychains', image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=400' },
+  { id: '4', name: 'Keychains', image: 'https://images.unsplash.com/photo-1601924638867-3a6de6b7a500?auto=format&fit=crop&q=80&w=400' },
   { id: '5', name: 'Combo Gifts', image: 'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&q=80&w=400' },
   { id: '6', name: 'Jewelry', image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&q=80&w=400' },
   { id: '7', name: 'Office & Utility Gifts', image: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=400' },
   { id: '8', name: 'Unique Gifts', image: 'https://images.unsplash.com/photo-1513519245088-0e12902e35ca?auto=format&fit=crop&q=80&w=400' },
-  { id: '9', name: 'Soft Gifts', image: 'https://images.unsplash.com/photo-1534127392961-2409c672af1b?auto=format&fit=crop&q=80&w=400' },
+  { id: '9', name: 'Soft Gifts', image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=400' },
   { id: '10', name: 'Clocks', image: 'https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?auto=format&fit=crop&q=80&w=400' },
 ];
 
 export const OCCASIONS: Occasion[] = [
   { id: '1', name: 'Birthday Gifts', image: 'https://images.unsplash.com/photo-1530103862676-fa8c91bbe181?auto=format&fit=crop&q=80&w=600' },
-  { id: '2', name: 'Anniversary Gifts', image: 'https://images.unsplash.com/photo-1516589174184-c685266e430c?auto=format&fit=crop&q=80&w=600' },
+  { id: '2', name: 'Anniversary Gifts', image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80&w=600' },
   { id: '3', name: 'Love Gifts', image: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&q=80&w=600' },
   { id: '4', name: 'Corporate Gifts', image: 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&q=80&w=600' },
 ];
@@ -25,7 +25,7 @@ export const BEST_SELLERS: Product[] = [
     id: 'pg-frame',
     title: 'Personalized Photo Frame',
     price: 899,
-    image: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&q=80&w=400',
+    image: 'https://images.unsplash.com/photo-1607344645866-009c320b63e0?auto=format&fit=crop&q=80&w=400',
     category: 'Photo Gifts',
     occasion: 'Birthday Gifts',
     rating: 4.9,
@@ -33,9 +33,9 @@ export const BEST_SELLERS: Product[] = [
     description: "A beautiful personalized photo frame that captures your most precious moments. Handcrafted with premium wood and high-quality printing.",
     videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
     customerPhotos: [
-      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=400",
-      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=400",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=400"
+      "https://images.unsplash.com/photo-1607344645866-009c320b63e0?q=80&w=400",
+      "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?q=80&w=400",
+      "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=400"
     ],
     reviews: [
       { id: 'r1', userName: "Sarah J.", rating: 5, comment: "Absolutely stunning! The quality is top-notch.", date: "2024-03-15" },
@@ -57,7 +57,7 @@ export const BEST_SELLERS: Product[] = [
     id: 'ca-crystal',
     title: 'Laser Engraved Crystal',
     price: 1499,
-    image: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&q=80&w=400',
+    image: 'https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&q=80&w=400',
     category: 'Crystal & Acrylic Gifts',
     occasion: 'Anniversary Gifts',
     rating: 5.0,
@@ -96,7 +96,7 @@ export const BEST_SELLERS: Product[] = [
     id: 'kc-keychain',
     title: 'Custom Keychain',
     price: 199,
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=400',
+    image: 'https://images.unsplash.com/photo-1601924638867-3a6de6b7a500?auto=format&fit=crop&q=80&w=400',
     category: 'Keychains',
     occasion: 'Corporate Gifts',
     rating: 4.9,
@@ -163,7 +163,7 @@ export const BEST_SELLERS: Product[] = [
     id: 'ug-lamp',
     title: '3D LED Lamp',
     price: 1299,
-    image: 'https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&q=80&w=400',
+    image: 'https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&q=80&w=400',
     category: 'Unique Gifts',
     occasion: 'Birthday Gifts',
     rating: 4.7,
@@ -182,7 +182,7 @@ export const BEST_SELLERS: Product[] = [
     id: 'sg-cushion',
     title: 'Personalized Cushion',
     price: 599,
-    image: 'https://images.unsplash.com/photo-1584108656821-afc29a9ee3c8?auto=format&fit=crop&q=80&w=400',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=400',
     category: 'Soft Gifts',
     occasion: 'Anniversary Gifts',
     rating: 4.8,
@@ -224,7 +224,7 @@ export const ALL_PRODUCTS: Product[] = [
     id: 'pg-collage',
     title: 'Collage Photo Frame',
     price: 1499,
-    image: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&q=80&w=400',
+    image: 'https://images.unsplash.com/photo-1607344645866-009c320b63e0?auto=format&fit=crop&q=80&w=400',
     category: 'Photo Gifts',
     occasion: 'Birthday Gifts',
     rating: 4.8
@@ -233,7 +233,7 @@ export const ALL_PRODUCTS: Product[] = [
     id: 'pg-led',
     title: 'LED Photo Frame',
     price: 1799,
-    image: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&q=80&w=400',
+    image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=400',
     category: 'Photo Gifts',
     occasion: 'Anniversary Gifts',
     rating: 4.9
@@ -251,7 +251,7 @@ export const ALL_PRODUCTS: Product[] = [
     id: 'md-bottle',
     title: 'Steel Water Bottle',
     price: 699,
-    image: 'https://images.unsplash.com/photo-1602143399827-7211aa3a7935?auto=format&fit=crop&q=80&w=400',
+    image: 'https://images.unsplash.com/photo-1745508201242-6495edf95b99?auto=format&fit=crop&q=80&w=400',
     category: 'Mugs & Drinkware',
     occasion: 'Corporate Gifts',
     rating: 4.8

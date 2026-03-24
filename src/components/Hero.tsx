@@ -6,7 +6,7 @@ import { cn } from '../lib/utils';
 
 const SLIDES = [
   {
-    image: "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?q=80&w=1920&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1607344645866-009c320b63e0?q=80&w=1920&auto=format&fit=crop",
     title: "Creative Gifts Store",
     subtitle: "Premium Gift Studio",
     description: "Transforming your emotions into timeless treasures. We specialize in high-end personalized gifts crafted with precision and love.",

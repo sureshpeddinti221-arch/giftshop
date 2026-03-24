@@ -9,7 +9,7 @@ const steps = [
     title: "The Creative Spark",
     subtitle: "Consultation & Concept",
     description: "Every masterpiece begins with your vision. We start by understanding the story you want to tell, the emotions you want to evoke, and the person you want to surprise.",
-    image: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=1200",
+    image: "https://images.unsplash.com/photo-1607344645866-009c320b63e0?q=80&w=1200&auto=format&fit=crop",
     icon: Sparkles,
     color: "bg-[#FDFCFB]"
   },
@@ -18,7 +18,7 @@ const steps = [
     title: "Artisanal Selection",
     subtitle: "Premium Materials",
     description: "We source only the finest materials—from sustainable hardwoods to museum-grade canvases—ensuring your gift isn't just beautiful, but a legacy that lasts for generations.",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1200",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1200&auto=format&fit=crop",
     icon: Palette,
     color: "bg-[#F8F9FA]"
   },
@@ -27,7 +27,7 @@ const steps = [
     title: "Masterful Crafting",
     subtitle: "Hand-Finished Detail",
     description: "Our master artisans combine traditional techniques with modern precision. Each stroke, each cut, and each stitch is performed with obsessive attention to detail.",
-    image: "https://images.unsplash.com/photo-1530608108141-984893c98502?q=80&w=1200",
+    image: "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?q=80&w=1200&auto=format&fit=crop",
     icon: PenTool,
     color: "bg-[#FDFCFB]"
   },
@@ -36,7 +36,7 @@ const steps = [
     title: "The Final Reveal",
     subtitle: "Luxury Presentation",
     description: "The experience doesn't end with the product. We wrap each masterpiece in bespoke packaging, designed to make the moment of opening as magical as the gift itself.",
-    image: "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?q=80&w=1200",
+    image: "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?q=80&w=1200&auto=format&fit=crop",
     icon: Gift,
     color: "bg-[#F8F9FA]"
   }
@@ -149,7 +149,7 @@ export default function ProcessSection() {
       <div className="relative h-screen flex items-center justify-center overflow-hidden bg-text">
         <div className="absolute inset-0 opacity-40">
           <img 
-            src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=1920" 
+            src="https://images.unsplash.com/photo-1607344645866-009c320b63e0?q=80&w=1920&auto=format&fit=crop" 
             alt="Studio" 
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"

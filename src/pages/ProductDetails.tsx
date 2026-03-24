@@ -104,12 +104,12 @@ export default function ProductDetails() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {(product.customerPhotos || [
-              "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=400",
-              "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=400",
-              "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=400",
-              "https://images.unsplash.com/photo-1518131146682-5b219963578b?q=80&w=400",
-              "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=400",
-              "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=400"
+              "https://images.unsplash.com/photo-1607344645866-009c320b63e0?q=80&w=400&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?q=80&w=400&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=400&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=400&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1530103862676-fa8c91bbe181?q=80&w=400&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=400&auto=format&fit=crop"
             ]).map((photo, i) => (
               <motion.div 
                 key={i}

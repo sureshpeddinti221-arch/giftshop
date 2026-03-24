@@ -14,7 +14,7 @@ export default function Blog() {
       id: 1,
       title: "10 Thoughtful Anniversary Gift Ideas for Your Partner",
       excerpt: "Finding the perfect anniversary gift can be a challenge. We've curated a list of 10 thoughtful ideas that will make your partner feel truly special.",
-      image: "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=800&auto=format&fit=crop",
       date: "Oct 12, 2023",
       author: "Sarah J.",
       category: "Gifting Guide"
@@ -32,7 +32,7 @@ export default function Blog() {
       id: 3,
       title: "Last-Minute Birthday Gifts That Don't Feel Last-Minute",
       excerpt: "Running out of time? Don't panic. These high-quality, thoughtful gifts can be delivered quickly and still show how much you care.",
-      image: "https://images.unsplash.com/photo-1530103043960-ef38714abb15?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1530103862676-fa8c91bbe181?q=80&w=800&auto=format&fit=crop",
       date: "Oct 18, 2023",
       author: "Emily W.",
       category: "Tips & Tricks"
@@ -41,7 +41,7 @@ export default function Blog() {
       id: 4,
       title: "How to Choose the Perfect Corporate Gift for Your Clients",
       excerpt: "Corporate gifting is an art form. It's about showing appreciation while maintaining professionalism. Here's our guide to getting it right.",
-      image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=800&auto=format&fit=crop",
       date: "Oct 22, 2023",
       author: "David L.",
       category: "Gifting Guide"
@@ -50,7 +50,7 @@ export default function Blog() {
       id: 5,
       title: "The Psychology of Giving: Why We Love to Gift",
       excerpt: "Have you ever wondered why giving a gift feels just as good as receiving one? We explore the fascinating psychology behind our gifting habits.",
-      image: "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=800&auto=format&fit=crop",
       date: "Oct 25, 2023",
       author: "Dr. Anna K.",
       category: "Insights"
@@ -59,7 +59,7 @@ export default function Blog() {
       id: 6,
       title: "Eco-Friendly Gifting: Sustainable Ideas for 2023",
       excerpt: "Gifting doesn't have to be wasteful. Discover our favorite eco-friendly and sustainable gift ideas that are kind to both people and the planet.",
-      image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?q=80&w=800&auto=format&fit=crop",
       date: "Oct 28, 2023",
       author: "Green G.",
       category: "Tips & Tricks"

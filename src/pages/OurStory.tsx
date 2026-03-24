@@ -28,7 +28,7 @@ export default function OurStory() {
               className="relative aspect-[21/9] rounded-[40px] overflow-hidden shadow-2xl"
             >
               <img 
-                src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?q=80&w=1920&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1607344645866-009c320b63e0?q=80&w=1920&auto=format&fit=crop" 
                 alt="Our Workshop" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -74,7 +74,7 @@ export default function OurStory() {
             <div className="relative">
               <div className="aspect-square rounded-[60px] overflow-hidden rotate-3 shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=800&auto=format&fit=crop" 
+                  src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?q=80&w=800&auto=format&fit=crop" 
                   alt="Craftsmanship" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
@@ -156,7 +156,7 @@ export default function OurStory() {
             <div className="md:w-1/2">
               <div className="aspect-video rounded-[40px] overflow-hidden shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop" 
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" 
                   alt="Hyderabad Studio" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"

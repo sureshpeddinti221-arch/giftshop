@@ -44,7 +44,7 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <div className="relative rounded-[40px] overflow-hidden aspect-square shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?q=80&w=1000&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1607344645866-009c320b63e0?q=80&w=1000&auto=format&fit=crop" 
                 alt="Our Workshop" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -153,10 +153,10 @@ export default function About() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { name: "Sarah Johnson", role: "Founder & Creative Director", img: "https://i.pravatar.cc/300?img=32" },
-              { name: "Michael Chen", role: "Head of Operations", img: "https://i.pravatar.cc/300?img=11" },
-              { name: "Emily Davis", role: "Lead Designer", img: "https://i.pravatar.cc/300?img=44" },
-              { name: "David Wilson", role: "Master Artisan", img: "https://i.pravatar.cc/300?img=12" }
+              { name: "Sarah Johnson", role: "Founder & Creative Director", img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=300&auto=format&fit=crop" },
+              { name: "Michael Chen", role: "Head of Operations", img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=300&auto=format&fit=crop" },
+              { name: "Emily Davis", role: "Lead Designer", img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=300&auto=format&fit=crop" },
+              { name: "David Wilson", role: "Master Artisan", img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=300&auto=format&fit=crop" }
             ].map((member, i) => (
               <motion.div
                 key={i}

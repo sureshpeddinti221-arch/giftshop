@@ -24,7 +24,7 @@ export default function StorySection() {
               className="relative z-10 rounded-[40px] overflow-hidden shadow-2xl aspect-[4/5]"
             >
               <img 
-                src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?q=80&w=1000&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1607344645866-009c320b63e0?q=80&w=1000&auto=format&fit=crop" 
                 alt="Handcrafted Gifts" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

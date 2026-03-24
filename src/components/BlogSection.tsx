@@ -9,7 +9,7 @@ export default function BlogSection() {
       id: 1,
       title: "10 Thoughtful Anniversary Gift Ideas for Your Partner",
       excerpt: "Finding the perfect anniversary gift can be a challenge. We've curated a list of 10 thoughtful ideas that will make your partner feel truly special.",
-      image: "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?q=80&w=500&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=500&auto=format&fit=crop",
       date: "Oct 12, 2023",
       author: "Sarah J.",
       category: "Gifting Guide"
@@ -27,7 +27,7 @@ export default function BlogSection() {
       id: 3,
       title: "Last-Minute Birthday Gifts That Don't Feel Last-Minute",
       excerpt: "Running out of time? Don't panic. These high-quality, thoughtful gifts can be delivered quickly and still show how much you care.",
-      image: "https://images.unsplash.com/photo-1530103043960-ef38714abb15?q=80&w=500&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1530103862676-fa8c91bbe181?q=80&w=500&auto=format&fit=crop",
       date: "Oct 18, 2023",
       author: "Emily W.",
       category: "Tips & Tricks"
