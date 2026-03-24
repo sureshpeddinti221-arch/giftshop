@@ -1,0 +1,79 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Jost:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Jost", sans-serif;
+
+  --color-background: #FFFFFF;
+  --color-primary: #B71C1C;
+  --color-secondary: #000000;
+  --color-accent: #D4AF37;
+  --color-text: #1A1A1A;
+  --color-border: #EEEEEE;
+  --color-card: #FFFFFF;
+  --color-muted: #F8F8F8;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-text font-sans antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif tracking-wide;
+  }
+}
+
+.container {
+  @apply max-w-[1320px] mx-auto px-6;
+}
+
+.section-spacing {
+  @apply py-20 md:py-32;
+}
+
+@utility rounded-premium {
+  @apply rounded-[20px];
+}
+
+@utility soft-shadow {
+  @apply shadow-[0_10px_30px_rgba(183,28,28,0.08)];
+}
+
+@utility gold-gradient {
+  @apply bg-gradient-to-r from-[#D4AF37] to-[#F2D06B];
+}
+
+@utility pink-peach-gradient {
+  @apply bg-gradient-to-r from-[#B71C1C] to-[#000000];
+}
+
+@utility hover-lift {
+  @apply transition-all duration-500 hover:-translate-y-2 hover:soft-shadow;
+}
+
+@utility decorative-blob {
+  @apply absolute rounded-full blur-[80px] opacity-20 -z-10;
+}
+
+/* Custom scrollbar for aesthetic feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF9F6;
+}
+::-webkit-scrollbar-thumb {
+  background: #B71C1C;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
+.mega-menu-enter {
+  @apply opacity-0 translate-y-2;
+}
+.mega-menu-enter-active {
+  @apply opacity-100 translate-y-0 transition-all duration-300;
+}
